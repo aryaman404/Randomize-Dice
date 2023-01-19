@@ -1,0 +1,42 @@
+*{
+    background-color: rgb(199, 36, 36);
+    margin: 0px;
+
+}
+h1{
+    margin-left: 40%;
+    font-size: 3rem;
+    font-family:cursive;
+    color: #000000;
+}
+h2{
+    font-family:cursive;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 40%;
+}
+img{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 18%;
+    margin-left: 50%;
+}
+.container{
+    display:grid;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
